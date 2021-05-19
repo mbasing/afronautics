@@ -1,0 +1,33 @@
+.button__primary {
+  background-color: #db222a;
+  padding: 10px 15px;
+}
+
+.button__secondary {
+  background-color: chocolate;
+  padding: 15px 25px;
+}
+
+#button__secondary {
+  background-color: black;
+  padding: 25px 30px;
+}
+
+button {
+  color: white;
+  outline: 0;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  transition: all 0.2s;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scaleX(0.95);
+}
+
+body {
+  background-color: white;
+}
